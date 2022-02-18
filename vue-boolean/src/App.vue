@@ -3,16 +3,19 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <NewTitle></NewTitle>
+    <NewJumbotron></NewJumbotron>
   </div>
 </template>
 
 <script>
 import NewTitle from './components/NewTitle.vue'
+import NewJumbotron from './components/NewJumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    NewTitle
+    NewTitle,
+    NewJumbotron
   }
 }
 </script>
