@@ -7,7 +7,9 @@
 </template>
 
 <script>
-
+export default {
+  name: 'NewJumbotron',
+}
 </script>
 
 <style scoped> 

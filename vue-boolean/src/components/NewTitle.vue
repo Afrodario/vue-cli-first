@@ -7,7 +7,9 @@
 </template>
 
 <script>
-
+export default {
+  name: 'NewTitle',
+}
 </script>
 
 <style scoped>
